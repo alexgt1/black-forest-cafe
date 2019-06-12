@@ -1,0 +1,63 @@
+.slider {
+  background: #333;
+  height: 400px;
+  width: 100%;
+}
+
+#logo {
+  background: #ccc;
+  width: 220px;
+    height: 100px;
+    position: relative;
+    bottom: 5px;
+}
+
+.navbar-toggler {
+  margin-top: 15px;
+}
+
+.navbar{
+  text-transform: uppercase;
+  background-color: #2B303A;
+  color: #fff!important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700!important;
+}
+
+.nav-link{
+  color: #fff!important;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+      height: 130px;
+      font-family: 'Raleway', sans-serif;
+  font-weight: 700!important;
+
+   }
+  #logo {
+    width: 220px;
+    height: 100px;
+    position: relative;
+    bottom: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding-right: 85px;
+  }
+  #nav-left {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .nav-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}
